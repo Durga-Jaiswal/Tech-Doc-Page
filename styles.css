@@ -1,0 +1,41 @@
+body{
+    padding:3%;
+    background-color:#F7F7F7;
+    color:#2B4865;
+    margin-left: 5%;
+  }
+  h1{
+    color:#002B5B;
+  }
+  @media (min-width:480px){
+    body{
+      width:100%;
+    }
+  }
+  #navbar{
+    width:250px;
+    height:100%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding:5px;
+    text-align:center;
+  }
+  #navbar a{
+    display: block;
+    color:#256D85;
+    text-decoration:none;
+    padding:15px;
+  }
+  #content{
+    margin-left:250px;
+    padding:5px;
+  }
+  code{
+    display:block;
+    padding:5px;
+    
+  }
+  
